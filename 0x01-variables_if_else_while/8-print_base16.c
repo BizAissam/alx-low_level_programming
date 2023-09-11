@@ -7,19 +7,17 @@
  */
 int main(void)
 {
-    char c;
+	int i;
 
-    for (c = '0'; c <= '9'; c++)
-    {
-        putchar(c);
-    }
-
-    for (c = 'a'; c <= 'f'; c++)
-    {
-        putchar(c);
-    }
-
-    putchar('\n');
-
-    return (0);
+	for (i = 48; i < 58; i++)
+	{
+		putchar(i);
+	}
+	for (i = 97; i < 103; i++)
+	{
+		putchar(i);
+	}
+	putchar('\n');
+	return (0);
 }
+
