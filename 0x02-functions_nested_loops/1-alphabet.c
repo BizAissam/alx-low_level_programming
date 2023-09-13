@@ -3,7 +3,8 @@
 /**
  * main -  print_alphabet - print all alphabet in lowercase
  *
- * Description: write alphabet
+ * Description: This function prints 
+ * all the lowercase letters from 'a' to 'z' using a for loop
  */
 
 void print_alphabet(void)
